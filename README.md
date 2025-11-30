@@ -185,8 +185,7 @@ This application allows users to:
 
 ### 1. Clone & Navigate
 ```bash
-cd /Users/akashkumar/myProject/fastApiProject
-```
+cd /Users/<User_name>/<folder_name>/contenthandler```
 
 ### 2. Create Virtual Environment
 ```bash
@@ -229,7 +228,7 @@ uvicorn app.app:app_route --reload --host 127.0.0.1 --port 8000
 
 ### Start Frontend (Streamlit) — in a new terminal
 ```bash
-streamlit run app/frontend.py --server.port 8501
+streamlit run frontend.py --server.port 8501
 ```
 
 ### Access
